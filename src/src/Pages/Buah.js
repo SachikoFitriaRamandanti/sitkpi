@@ -14,7 +14,7 @@ export default function Movie() {
     };
 
   const fetchData = () => {
-    const baseURL = "https://sitkpi.000webhostapp.com/getdetail.php?kategori=sayuran";
+    const baseURL = "https://sitkpi.000webhostapp.com/getdetail.php?kategori=buah";
     axios({method: "get",url : baseURL, withCredentials: false}).then((response) => setData(response.data.data));
   };
   useEffect(() => {
@@ -23,23 +23,19 @@ export default function Movie() {
   return (
     <>
       {data.map((item, index) => (
-        <Link to={`/pangan/${item.id}`}>
-
         <Fragment key={item.id}>
-          {/* <Link to="/information?id="> */}
           <CardNormal
             nama={item.nama}
             kategori={item.kategori}
             // img={item.img}
             // genre={item.genre}
-            // onClick={() => alert("Nama Bahan = " + item.nama+"\nKategori =  "+ item.kategori+"\nProtein = "+item.protein+"g\nAir = "+item.air+"g\nLemak = "+item.lemak+"g\n Serat = "+item.serat+"g\n Kalsium = "+item.kalsium+"mg")}
+            onClick={() => alert("Nama Bahan = " + item.nama+"\nKategori =  "+ item.kategori+"\nProtein = "+item.protein+"g\nAir = "+item.air+"g\nLemak = "+item.lemak+"g\n Serat = "+item.serat+"g\n Kalsium = "+item.kalsium+"mg")}
+         
             
       >
           {data.length === index + 1 && <div style={{ marginBottom: 80 }} />}
           </CardNormal>
-          {/* </Link> */}
         </Fragment>
-        </Link>
       ))}
     </>
   );

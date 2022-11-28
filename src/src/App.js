@@ -11,13 +11,15 @@ import './App.css'
 import Movie from './Pages/Movie'
 import Profile from './Pages/Profile'
 import Serealia from './Pages/Serealia'
-import Detail from './Pages/Detail'
+// import Detail from './Pages/Detail'
 import Information from './Pages/Information'
 import Umbi from './Pages/Umbi'
 import Sayuran from './Pages/Sayuran'
 import Buah from './Pages/Buah'
 import Ikan from './Pages/Ikan'
 import About from './Pages/About'
+import Detail from './Pages/Detail'
+
 function App() {
   return (
     <BrowserRouter>
@@ -35,7 +37,7 @@ function App() {
         <Route path="/information" element={<Information />} />
         <Route path="/ikan" element={<Ikan />} />
         <Route path="/about" element={<About />} />
-        <Route path="/pangan/:id" element={<Detail />} />
+        <Route parh="/detail" element={<Detail />} />
       </Routes>
       <footer>
         {/* <NavLink to="/movie" className="iconWrapper">
