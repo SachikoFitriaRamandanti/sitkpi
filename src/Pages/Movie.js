@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import CardBig from "../components/CardBig";
 import CardSmall from "../components/CardSmall";
-import "./Movie.css";
 
 export default function Movie() {
   const STAR_COLOR = "rgb(220, 117, 21)";

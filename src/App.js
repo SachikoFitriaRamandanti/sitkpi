@@ -14,16 +14,10 @@ import Serealia from './Pages/Serealia'
 // import Detail from './Pages/Detail'
 import Information from './Pages/Information'
 import Umbi from './Pages/Umbi'
-import Kacang from './Pages/Kacang'
 import Sayuran from './Pages/Sayuran'
 import Buah from './Pages/Buah'
-import Daging from './Pages/Daging'
-import Susu from './Pages/Susu'
 import Ikan from './Pages/Ikan'
-import Telur from './Pages/Telur'
-import Lemak from './Pages/Lemak'
-import Gula from './Pages/Gula'
-import Bumbu from './Pages/Bumbu'
+import About from './Pages/About'
 function App() {
   return (
     <BrowserRouter>
@@ -36,17 +30,11 @@ function App() {
         <Route path="/serealia" element={<Serealia />} />
         {/* <Route path="/detail" element={<Detail />} /> */}
         <Route path="/umbi" element={<Umbi />} />
-        <Route path="/kacang" element={<Kacang />} />
         <Route path="/sayuran" element={<Sayuran />} />
         <Route path="/buah" element={<Buah />} />
         <Route path="/information" element={<Information />} />
-        <Route path="/daging" element={<Daging />} />
-        <Route path="/susu" element={<Susu />} />
         <Route path="/ikan" element={<Ikan />} />
-        <Route path="/telur" element={<Telur />} />
-        <Route path="/lemak" element={<Lemak />} />
-        <Route path="/gula" element={<Gula />} />
-        <Route path="/bumbu" element={<Bumbu />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <footer>
         {/* <NavLink to="/movie" className="iconWrapper">
@@ -65,10 +53,6 @@ function App() {
           <GiTreeRoots className="icon" />
           Umbi Berpati
         </NavLink>
-        <NavLink to="/Kacang" className="iconWrapper">
-          <CiCoffeeBean className="icon" />
-          Kacang
-        </NavLink>      
         <NavLink to="/Sayuran" className="iconWrapper">
           <GiThreeLeaves className="icon" />
           Sayuran
@@ -76,34 +60,14 @@ function App() {
         <NavLink to="/Buah" className="iconWrapper">
           <GiFruitBowl className="icon" />
           Buah
-        </NavLink>   
-        <NavLink to="/Daging" className="iconWrapper">
-          <GiMeatCleaver className="icon" />
-          Daging, Unggas
-        </NavLink>
-        <NavLink to="/Susu" className="iconWrapper">
-          <TbMilk className="icon" />
-          Susu
         </NavLink>
         <NavLink to="/Ikan" className="iconWrapper">
           <TbFish className="icon" />
-          Ikan, Kerang, Udang
+          Ikan
         </NavLink>
-        <NavLink to="/Telur" className="iconWrapper">
-          <BsEggFried className="icon" />
-          Telur
-        </NavLink>
-        <NavLink to="/Lemak" className="iconWrapper">
-          <GiFat className="icon" />
-          Lemak
-        </NavLink>
-        <NavLink to="/Gula" className="iconWrapper">
-          <GiWrappedSweet className="icon" />
-          Gula
-        </NavLink>
-        <NavLink to="/Bumbu" className="iconWrapper">
-          <GiCoolSpices className="icon" />
-          Bumbu
+        <NavLink to="/about" className="iconWrapper">
+          <MdGroup className="icon" />
+          About App
         </NavLink>
 
       </footer>

@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(110, 55, 98);
+  background-color: rgb(60, 135, 158);
 }
 
 #titleGroup {
@@ -12,10 +12,10 @@ body {
 }
 
 header {
-  background-color: rgb(233, 65, 169);
+  background-color: rgb(5, 109, 128);
   margin: auto;
   text-align: center;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 footer {
@@ -23,7 +23,7 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: rgb(71, 32, 48);
+  background-color: rgb(46, 111, 131);
   width: 100%;
   justify-content: space-around;
   align-items: center;
@@ -51,7 +51,7 @@ footer {
 }
 
 .active {
-  color: rgb(233, 65, 219);
+  color: rgb(62, 143, 163);
 }
 
 ::-webkit-scrollbar {
@@ -59,13 +59,13 @@ footer {
   height: 5px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #e94187;
+  background: #1c4e70;
   border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #e94179;
+  background: #41c2e9;
 }
 ::-webkit-scrollbar-track {
-  background: #462929;
+  background: #042747;
   box-shadow: inset 0px 0px 0px 0px #f0f0f0;
 }
