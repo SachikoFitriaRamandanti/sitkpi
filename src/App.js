@@ -25,10 +25,8 @@ function App() {
         <p id="titleGroup">SISTEM INFORMASI TABEL KOMPOSISI PANGAN INDONESIA</p>
       </header>
       <Routes>
-        {/* <Route path="/movie" element={<Movie />} /> */}
         <Route path="/profile" element={<Profile />} />
         <Route path="/serealia" element={<Serealia />} />
-        {/* <Route path="/detail" element={<Detail />} /> */}
         <Route path="/umbi" element={<Umbi />} />
         <Route path="/sayuran" element={<Sayuran />} />
         <Route path="/buah" element={<Buah />} />
@@ -38,10 +36,6 @@ function App() {
         <Route path="/pangan/:id" element={<Detail />} />
       </Routes>
       <footer>
-        {/* <NavLink to="/movie" className="iconWrapper">
-          <HiHome className="icon" />
-          Movie
-        </NavLink> */}
         <NavLink to="/profile" className="iconWrapper">
           <MdGroup className="icon" />
           Profile
@@ -52,7 +46,7 @@ function App() {
         </NavLink>
         <NavLink to="/Umbi" className="iconWrapper">
           <GiTreeRoots className="icon" />
-          Umbi Berpati
+          Umbi
         </NavLink>
         <NavLink to="/Sayuran" className="iconWrapper">
           <GiThreeLeaves className="icon" />
@@ -67,8 +61,8 @@ function App() {
           Ikan
         </NavLink>
         <NavLink to="/about" className="iconWrapper">
-          <MdGroup className="icon" />
-          About App
+          <HiHome className="icon" />
+          About
         </NavLink>
 
       </footer>

@@ -3,7 +3,7 @@ export default function About() {
     return (
       <div style={{ display: "block", justifyContent: "center",textAlign: "center" }}>
 
-        <h2 style={{display: "inline-block", justifyContent: "center", color:"aqua"}}>TKPI</h2> 
+        <h2 style={{display: "inline-block", justifyContent: "center", color:"black"}}>TKPI</h2> 
         <br></br>
             <h4>
             Tabel Komposisi Pangan Indonesia merupakan kumpulan data komposisi zat gizi pangan yang ada di Indonesia, yang berasal dari laporan atau makalah hasil penelitian mengenai komposisi zat gizi pangan.

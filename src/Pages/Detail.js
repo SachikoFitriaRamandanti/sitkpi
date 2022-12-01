@@ -51,11 +51,17 @@ export default function Detail() {
         return (
           
             <div style={{textAlign: "center"}}>
+              <h2 style={{display: "inline-block", justifyContent: "center", color:"black", marginTop:"100px"}}>Detail Bahan Pangan</h2> 
+              
+        <br></br>
+            <h2></h2>
               <p>air : {item.air}</p>
               <p>kalsium : {item.kalsium}</p>
               <p>lemak : {item.lemak}</p>
               <p>protein : {item.protein}</p>
               <p>serat : {item.serat}</p>
+              <br></br>
+            <h2></h2>
             </div>
             );
           })}

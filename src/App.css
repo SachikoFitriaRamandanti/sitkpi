@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(60, 135, 158);
+  background-color: rgb(136, 198, 218);
 }
 
 #titleGroup {
@@ -8,14 +8,14 @@ body {
   color: white;
   font-family: Verdana;
   font-weight: bolder;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 header {
-  background-color: rgb(5, 109, 128);
+  background-color: rgb(28, 118, 134);
   margin: auto;
   text-align: center;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 footer {
@@ -47,7 +47,7 @@ footer {
 .icon {
   color: white;
   margin-bottom: 4px;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 .active {
